@@ -1,0 +1,55 @@
+div#bwg_container1_0 #bwg_container2_0{
+  .bwg-container-0.bwg-standard-thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    .bwg-item{
+      flex: 0 1 auto;
+      width: auto;
+      max-width: 100%;
+      > a{
+        .bwg-item1{
+          padding: 0px;
+          position: relative;
+        }
+        .bwg-item2{
+          width: auto;
+        }
+        .bwg-zoom-effect-overlay{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0,0,0,0);
+          transition: .3s all;
+          transform: scale(1);
+          &:hover{
+            background-color: rgba(0,0,0,0.7);
+            transition: .3s all;
+            transform: scale(1.08);
+            .bwg-title1{
+              opacity: 1;
+              transition: .3s all;
+            }
+          }
+          .bwg-title1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            transition: .3s all;
+            .bwg-title2{
+              text-align: center;
+              font-size: 40px;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}
