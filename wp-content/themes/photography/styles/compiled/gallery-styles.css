@@ -1,42 +1,18 @@
-div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails {
-  display: flex;
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail a {
+  width: 100%; }
+
+.ngg-galleryoverview.default-view {
+  display: flex !important;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: start; }
-  div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item {
-    flex: 0 1 auto;
-    width: auto;
-    max-width: 100%; }
-    div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-item1 {
-      padding: 0px;
-      position: relative; }
-    div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-item2 {
-      width: auto; }
-    div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-zoom-effect-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0);
-      transition: .3s all;
-      transform: scale(1); }
-      div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-zoom-effect-overlay:hover {
-        background-color: rgba(0, 0, 0, 0.7);
-        transition: .3s all;
-        transform: scale(1.08); }
-        div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-zoom-effect-overlay:hover .bwg-title1 {
-          opacity: 1;
-          transition: .3s all; }
-      div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-zoom-effect-overlay .bwg-title1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        transition: .3s all; }
-        div#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a .bwg-zoom-effect-overlay .bwg-title1 .bwg-title2 {
-          text-align: center;
-          font-size: 40px;
-          text-transform: capitalize; }
+  justify-content: center; }
+
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail-box {
+  flex: 1 1 33%; }
+
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail img {
+  margin: 0px;
+  width: 100%;
+  min-width: 320px; }
+
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail {
+  margin: 2px; }
